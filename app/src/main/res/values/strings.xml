@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Victor_Vallecillos_UF1_ACT4</string>
+    <string name="title">Títol</string>
+    <string name="buttonLogcat">Botó Logcat</string>
+    <string name="buttonToast">Botó toast</string>
 </resources>

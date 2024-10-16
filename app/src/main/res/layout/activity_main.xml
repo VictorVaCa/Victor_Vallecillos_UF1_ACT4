@@ -15,8 +15,39 @@
 
         <TextView
             android:id="@+id/textView"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="98dp"
+            android:text="@string/title"
+            android:textAlignment="center"
+            android:textSize="48sp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="396dp"
+            android:visibility="visible"
+            tools:srcCompat="@tools:sample/avatars"
+            tools:visibility="visible" />
+
+        <Button
+            android:id="@+id/buttonLogcat"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:insetLeft="4dp"
+            android:insetTop="16dp"
+            android:insetRight="4dp"
+            android:insetBottom="16dp"
+            android:text="@string/buttonLogcat" />
+
+        <Button
+            android:id="@+id/buttonToast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:insetLeft="4dp"
+            android:insetTop="16dp"
+            android:insetRight="4dp"
+            android:insetBottom="16dp"
+            android:text="@string/buttonToast" />
+
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
